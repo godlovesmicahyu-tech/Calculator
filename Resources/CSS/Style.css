@@ -1,0 +1,147 @@
+h1 {
+
+    padding-left: 20px;
+
+}
+
+body {
+
+    padding-left: 550px;
+    background-image: linear-gradient(rgb(150, 230, 241), white)
+
+}
+
+#Calculator {
+
+    border: 3px solid black;
+    width: 280px;
+    Height: 225px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+   
+    background-color: rgb(161, 161, 161);
+
+}
+
+#Buttons {
+
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+
+
+#Numbers {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    
+}
+
+#Operators {
+
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.Number,
+.Signs {
+
+    width: 51px;
+    height: 52px;
+    border: 3px solid black;
+    font-weight: bold;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Number {
+
+    background-color: yellow;
+
+}
+
+.Number:Hover {
+
+    background-color: rgb(216, 216, 3);
+
+}
+
+.Signs {
+
+    background-color: rgb(18, 18, 186);
+
+}
+
+.Signs:Hover {
+
+    background-color: rgb(18, 18, 172);
+
+}
+
+#Clear {
+        
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: gray;
+    border: 3px solid black;
+    font-weight: bold;
+    align-items: center;
+    width: 51px;
+    height: 52px;
+
+}
+
+
+
+
+#Screen2 {
+        
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(204, 204, 204);
+    width: 330px;
+    height: 60px;
+    border: 3px solid black;
+    font-weight: bold;
+   
+}
+
+#Screen {
+
+    width: 290px;
+    Height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    background-color: rgb(70, 70, 255);
+    border: 2px solid black;
+
+}
+
+#Equals {
+
+     width: 51px;
+    height: 52px;
+    border: 3px solid black;
+    font-weight: bold;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+
+}
+
+
